@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         煎蛋无聊图屏蔽已读
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  煎蛋无聊图屏蔽已读
+// @version      0.1.1
+// @description  屏蔽已读的无聊图，每次以打开jandan.net/pic作为更新已读时间戳标准
 // @author       owl
-// @match        https://jandan.net/pic/*
-// @match        https://jandan.net/pic
+// @match        https://*.jandan.net/pic/*
+// @match        https://*.jandan.net/pic
 // @grant        GM_getValue
 // @grant        GM.getValue
 // @grant        GM_setValue
